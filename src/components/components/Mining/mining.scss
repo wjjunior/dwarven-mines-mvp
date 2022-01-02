@@ -1,0 +1,88 @@
+.chest {
+  height: 10vh;
+  margin-bottom: 1rem;
+}
+
+.btn-draw {
+  img {
+    height: 2rem;
+  }
+}
+
+.btn-speed {
+  img {
+    height: 2rem;
+    margin-right: 0.5rem;
+  }
+}
+
+.btn-config {
+  img {
+    height: 2rem;
+  }
+}
+
+.player {
+  position: relative;
+  img {
+    height: 3rem;
+  }
+
+  span {
+    font-size: 2rem;
+  }
+
+  .mana-stone-span {
+    position: absolute;
+    bottom: 0;
+  }
+
+  .pop-span {
+    position: absolute;
+    bottom: 0;
+    right: 11%;
+  }
+}
+
+#workersDrawAmount {
+  width: 10%;
+  text-align: center;
+}
+
+.card-deck {
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+
+  .small-mine {
+    .card-header {
+      background-image: url("../../../assets/img/mines/small-mine.jpeg");
+    }
+  }
+
+  .medium-mine {
+    .card-header {
+      background-image: url("../../../assets/img/mines/medium-mine.jpeg");
+    }
+  }
+
+  .large-mine {
+    .card-header {
+      background-image: url("../../../assets/img/mines/large-mine.jpeg");
+    }
+  }
+
+  .extreme-mine {
+    .card-header {
+      background-image: url("../../../assets/img/mines/extreme-mine.jpeg");
+    }
+  }
+
+  .greyscale {
+    filter: grayscale(100%);
+  }
+}

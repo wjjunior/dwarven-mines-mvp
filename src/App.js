@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import "bootstrap/dist/css/bootstrap.min.css";
+import { Header } from "./components/components/Header/header";
+import { Mining } from "./components/components/Mining/mining"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <div className="position-relative overflow-hidden text-center home-image">
+        {/* <img src="./img/mine.jpeg" alt="mine" /> */}
+      </div>
+      <div className="container">
+        <Mining />
+      </div>
     </div>
   );
 }

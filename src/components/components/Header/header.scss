@@ -1,0 +1,10 @@
+.site-header {
+  background-color: #064992;
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+
+  a {
+    color: #FDC737;
+    transition: ease-in-out color .15s;
+  }
+}

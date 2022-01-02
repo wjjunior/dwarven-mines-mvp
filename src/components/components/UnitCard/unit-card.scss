@@ -1,0 +1,24 @@
+.troop-card {
+  border: 1px solid black;
+
+  img {
+    height: 7vh;
+  }
+
+  input {
+    width: 5rem;
+    height: 1.7rem;
+    display: inline-block;
+    text-align: center;
+  }
+
+  a {
+    font-weight: 700;
+    text-decoration: none;
+    color: #603000;
+  }
+
+  .unit-table {
+    font-size: 8.5px;
+  }
+}
