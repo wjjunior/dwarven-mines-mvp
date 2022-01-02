@@ -330,6 +330,10 @@ export const MineCard = ({ name }) => {
       }`;
     }
 
+    if(!mining[name].status && mining[name].availableClaim) {
+      return mining[name].availableClaim
+    }
+
     if (manaStone.max > 0) {
       return `${manaStone.min * MINES[name].ratio} - ${
         manaStone.max * MINES[name].ratio
