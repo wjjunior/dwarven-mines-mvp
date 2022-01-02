@@ -75,7 +75,7 @@ export const UnitCard = ({ info, amount }) => {
           <div className="row">
             <div className="col text-center mb-2">
               <a
-                href="#"
+                href="/#"
                 className=""
                 onClick={() => handleChange(name, amount)}
               >

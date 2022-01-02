@@ -6,7 +6,7 @@ export const Header = () => {
     <header>
       <nav className="site-header sticky-top py-1">
         <div className="container d-flex flex-column flex-md-row justify-content-between">
-          <a className="py-2" href="#">
+          <a className="py-2" href="/#">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -28,25 +28,25 @@ export const Header = () => {
               <line x1="16.62" y1="12" x2="10.88" y2="21.94"></line>
             </svg>
           </a>
-          <a className="py-2 d-none d-md-inline-block" href="#">
+          <a className="py-2 d-none d-md-inline-block" href="/#">
             Tour
           </a>
-          <a className="py-2 d-none d-md-inline-block" href="#">
+          <a className="py-2 d-none d-md-inline-block" href="/#">
             Product
           </a>
-          <a className="py-2 d-none d-md-inline-block" href="#">
+          <a className="py-2 d-none d-md-inline-block" href="/#">
             Features
           </a>
-          <a className="py-2 d-none d-md-inline-block" href="#">
+          <a className="py-2 d-none d-md-inline-block" href="/#">
             Enterprise
           </a>
-          <a className="py-2 d-none d-md-inline-block" href="#">
+          <a className="py-2 d-none d-md-inline-block" href="/#">
             Support
           </a>
-          <a className="py-2 d-none d-md-inline-block" href="#">
+          <a className="py-2 d-none d-md-inline-block" href="/#">
             Pricing
           </a>
-          <a className="py-2 d-none d-md-inline-block" href="#">
+          <a className="py-2 d-none d-md-inline-block" href="/#">
             Cart
           </a>
         </div>
